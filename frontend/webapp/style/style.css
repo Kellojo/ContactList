@@ -1,0 +1,205 @@
+.glossary-page.glossary-page-onlyVertical > section {
+  margin: 1rem 0rem;
+  width: auto !important;
+}
+.glossary-page > section {
+  margin: 1rem;
+  width: auto !important;
+}
+.glossary-page-marginHorizontal {
+  margin: 0rem 1rem;
+}
+.glossary-viewWord .glossary-viewWord-word {
+  font-size: 1.5rem;
+  color: #0070b1;
+}
+.glossary-viewWord .glossary-viewWord-lastModifiedAt {
+  margin-bottom: 0.25rem;
+}
+.glossary-viewWord .glossary-viewWord-description {
+  margin-top: 1rem;
+  text-align: justify !important;
+}
+.glossary-header {
+  background-color: #0060c0 !important;
+  padding: 0 0.5rem;
+}
+.glossary-header .sapMText,
+.glossary-header .sapMBtnIcon,
+.glossary-header .sapMBtnContent,
+.glossary-header .sapMBtnContent > bdi {
+  color: white !important;
+}
+.glossary-header.sapMIBar > .sapMBarChild:last-child {
+  margin-right: 0.5rem !important;
+}
+.glossary-header .glossary-appTitle {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.glossary-header .glossary-header-user .sapMLnk {
+  vertical-align: middle;
+  margin: 0px !important;
+  color: white;
+  text-decoration: underline;
+}
+.glossary-header .glossary-header-user .sapMLnk:hover {
+  color: white;
+}
+.glossary-horizontal-spacer {
+  width: 100% !important;
+  height: 1rem !important;
+  background-color: #f2f2f2 !important;
+}
+.sapMListNoDataText {
+  color: #666;
+}
+.sapMLabelRequired:before {
+  margin-right: 0.1rem;
+}
+.sapMInputBaseContentWrapperSuccess {
+  border-color: #8cc905 !important;
+}
+.sapMInputBaseContentWrapperError {
+  border-color: #ee3100 !important;
+}
+.sapMPullDown {
+  background-color: white !important;
+}
+.glossary-centeredPanel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.glossary-centeredPanel .sapMPanelContent {
+  padding: 0.625rem 1rem 0.5rem 1rem;
+}
+.glossary-centeredPanel .sapMNav {
+  min-width: 15% !important;
+  max-width: 400px;
+  height: 350px !important;
+}
+.glossary-centeredPanel .sapMNav .passwordLabel {
+  margin-top: 0.35rem;
+}
+.glossary-centeredPanel .sapMNav .forgotPasswordLink {
+  margin-top: 0.25rem;
+  color: #666;
+}
+.glossary-centeredPanel .sapMNav .submitButtonContainer {
+  align-items: center;
+  display: flex;
+  margin-top: 0.25rem;
+}
+.glossary-centeredPanel .sapMNav .submitButtonContainer .sapMFlexItem:last-child {
+  margin-left: auto;
+}
+.glossary-errorMessageContainer {
+  position: absolute;
+  left: 2rem;
+  right: 2rem;
+  bottom: 5.5rem;
+}
+.glossary-errorMessageContainer .sapMMsgStrip {
+  margin-top: 0.25rem;
+  width: 100%;
+}
+.glossary-overview .sapMPanelContent:first-child {
+  display: flex;
+  flex-direction: column;
+}
+.glossary-overview .glossary-contentPanel .sapMPanelContent {
+  padding: 0rem;
+}
+.glossary-overview .glossary-contentPanel .glossary-listHeader {
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 3rem !important;
+  padding: 0rem 0.5rem !important;
+}
+.glossary-overview .glossary-contentPanel .glossary-listHeader .sapMBarChild.sapMSF.sapMTBShrinkItem {
+  max-width: 250px;
+}
+.glossary-overview .glossary-contentPanel .glossary-listHeader .sapMComboBox {
+  margin-left: 0px !important;
+}
+.glossary-overview .glossary-contentPanel .glossary-listHeader > .sapMBarChild:last-child {
+  margin-right: 0px !important;
+}
+.glossary-overview .glossary-contentPanel .glossary-overviewList {
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: calc(100% - 3rem);
+}
+.glossary-overview .glossary-contentPanel .glossary-overviewList .glossary-listItem .heading {
+  min-width: 25%;
+  max-width: 25%;
+}
+.glossary-overview .glossary-contentPanel .glossary-overviewList .glossary-listItem .wordContainer {
+  width: 100%;
+}
+.glossary-overview .glossary-contentPanel .glossary-overviewList .glossary-listItem .wordContainer .sapMFlexItem:first-child,
+.glossary-overview .glossary-contentPanel .glossary-overviewList .glossary-listItem .wordContainer .word {
+  max-width: 100%;
+}
+.glossary-overview .glossary-contentPanel .glossary-overviewList .glossary-listItem .editIcon {
+  height: 0;
+  transition: opacity 0.25s ease;
+  opacity: 0;
+  margin-left: 0.5rem;
+}
+.glossary-overview .glossary-contentPanel .glossary-overviewList .glossary-listItem .lastModifiedDate {
+  font-size: 0.75rem;
+}
+.glossary-overview .glossary-contentPanel .glossary-overviewList .glossary-listItem .description {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  text-align: justify !important;
+}
+.glossary-overview .glossary-contentPanel .glossary-overviewList .glossary-listItem:hover .editIcon {
+  cursor: pointer;
+  height: auto;
+  opacity: 1;
+  display: block;
+}
+.glossary-dialog .sapMDialogSection {
+  height: 100% !important;
+}
+.sapMApp .sapMPage {
+  height: calc(100% - 40px) !important;
+}
+html {
+  overflow: hidden;
+}
+.sap-phone .glossary-dialog {
+  height: 100% !important;
+  width: 100% !important;
+  max-height: calc(100% - 5rem) !important;
+  max-width: 100% !important;
+  border-radius: 0px;
+}
+.sap-phone .glossary-overview .glossary-contentPanel .glossary-listItem .heading {
+  max-width: 100% !important;
+}
+.sap-phone .glossary-overview .glossary-contentPanel .glossary-listItem .glossary-listHeader {
+  padding: 0rem 0.675rem !important;
+}
+.sap-phone .glossary-overview .glossary-contentPanel .glossary-listItem .sapMHBox {
+  margin-right: 1rem;
+}
+.sap-phone .glossary-overview .glossary-contentPanel .glossary-listItem .editIcon {
+  display: none !important;
+}
+.glossary-userDialog .glossary-userInfo {
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 1rem;
+}
+.glossary-userDialog .glossary-userInfo .sapMLabel {
+  font-size: 0.7rem;
+}
+.kellojoMPage {
+  height: calc(100% - 2 * 2rem);
+  padding: 2rem;
+}

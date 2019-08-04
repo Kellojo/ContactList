@@ -1,0 +1,51 @@
+<mvc:View
+	controllerName="com.contacts.controller.ContactsList"
+	xmlns="sap.m"
+    xmlns:u="sap.ui.unified"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:k="kellojo.m"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+
+        <k:Page>
+            <k:content>
+                <Button press="onAddContactButtonPress" />
+                <Table>
+                    <columns>
+                        <Column
+                            width="12em">
+                            <Text text="Product" />
+                        </Column>
+                        <Column
+                            minScreenWidth="Tablet"
+                            demandPopin="true">
+                            <Text text="Supplier" />
+                        </Column>
+                        <Column
+                            minScreenWidth="Desktop"
+                            demandPopin="true"
+                            hAlign="End">
+                            <Text text="Dimensions" />
+                        </Column>
+                        <Column
+                            minScreenWidth="Desktop"
+                            demandPopin="true"
+                            hAlign="Center">
+                            <Text text="Weight" />
+                        </Column>
+                        <Column
+                            hAlign="End">
+                            <Text text="Price" />
+                        </Column>
+                    </columns>
+                    <items>
+                        <ColumnListItem>
+                            <cells>
+
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+            </k:content>
+        </k:Page>
+
+</mvc:View>

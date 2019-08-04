@@ -1,0 +1,18 @@
+{
+  "name": "contactslistbackend",
+  "version": "1.0.0",
+  "description": "The backend for the contacts list app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kellojo",
+  "license": "",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.8",
+    "nodemon": "^1.19.1"
+  }
+}

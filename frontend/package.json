@@ -1,0 +1,16 @@
+{
+  "name": "ContactsListFrontEnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "http-server ./webapp",
+    "buildThemes": "lessc ./webapp/style/library.less ./webapp/style/style.css"
+  },
+  "author": "Kellojo",
+  "license": "",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "lessc": "^1.0.2"
+  }
+}

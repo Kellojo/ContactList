@@ -1,0 +1,30 @@
+<mvc:View
+	controllerName="com.contacts.controller.app"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    height="100%"
+    width="100%"
+    id="idAppView">
+
+    <html:div>
+
+        <Page>
+            <customHeader>
+                <core:Fragment fragmentName="com.contacts.view.header" type="XML"/>
+            </customHeader>
+                
+
+            <content>
+                <App id="idApp">
+                    <pages></pages>
+                </App>
+
+                <VBox id="idErrorMessageContainer" class="glossary-errorMessageContainer"/>
+            </content>
+
+        </Page>
+    </html:div>
+
+</mvc:View>
